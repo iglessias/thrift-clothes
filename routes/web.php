@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/template', function () {
     return view('template');
 });
+Route::get('/landing-page', function () {
+    return view('landing-page');
+});
+
